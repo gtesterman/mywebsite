@@ -3,175 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
+    <meta name="description" content="Personal Professional Website">
+    <title>Your Name - Personal Professional Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f4f4f9;
+            color: #333;
         }
         header {
-            background-color: #333;
+            background-color: #4CAF50;
             color: white;
             padding: 20px;
             text-align: center;
         }
         nav {
-            background-color: #333;
             display: flex;
             justify-content: center;
-            padding: 10px 0;
+            background-color: #333;
         }
         nav a {
             color: white;
+            padding: 14px 20px;
             text-decoration: none;
-            padding: 10px 20px;
-            margin: 0 10px;
+            text-align: center;
+            transition: background-color 0.3s;
         }
         nav a:hover {
-            background-color: #575757;
-            border-radius: 4px;
+            background-color: #ddd;
+            color: black;
         }
         section {
             padding: 20px;
             margin: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #333;
-        }
-        .projects, .blog-posts {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-        }
-        .projects div, .blog-posts div {
-            background-color: #f4f4f4;
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-        }
-        .social-links a {
-            margin: 10px;
-            text-decoration: none;
-            color: #333;
-            font-size: 18px;
-        }
-        .social-links a:hover {
-            text-decoration: underline;
         }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
             padding: 10px;
-        }
-        .contact-form input, .contact-form textarea {
+            position: fixed;
             width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .contact-form button {
-            background-color: #333;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        .contact-form button:hover {
-            background-color: #575757;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Your Name</h1>
-    <p>Welcome to my personal website!</p>
-</header>
+    <header>
+        <h1>Your Name</h1>
+        <p>Welcome to my professional website</p>
+    </header>
 
-<nav>
-    <a href="#about">About Me</a>
-    <a href="#projects">Current Projects</a>
-    <a href="#blog">Blog</a>
-    <a href="#contact">Contact</a>
-</nav>
+    <nav>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Current Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="social.html">Social Media</a>
+    </nav>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I'm [Your Name], a [your profession or hobby]. I'm passionate about [what you're passionate about]. This website serves as a portfolio and a place to share my work and thoughts with the world. I'm always open to new opportunities and collaborations!</p>
-</section>
+    <section>
+        <h2>Welcome!</h2>
+        <p>This is the homepage of my personal website. You can navigate through the pages to learn more about me, my current projects, and my professional background.</p>
+    </section>
 
-<section id="projects">
-    <h2>Current Projects</h2>
-    <div class="projects">
-        <div>
-            <h3>Project 1</h3>
-            <p>Description of your first project. This can be anything you're working on, like a website, app, or research project.</p>
-        </div>
-        <div>
-            <h3>Project 2</h3>
-            <p>Description of your second project. Share details about the problem you're solving and the technology you're using.</p>
-        </div>
-        <div>
-            <h3>Project 3</h3>
-            <p>Description of your third project. It can include achievements or challenges you've faced in the project.</p>
-        </div>
-        <div>
-            <h3>Project 4</h3>
-            <p>Description of your fourth project. Provide links or images if possible.</p>
-        </div>
-    </div>
-</section>
-
-<section id="blog">
-    <h2>Blog</h2>
-    <div class="blog-posts">
-        <div>
-            <h3>Blog Post 1</h3>
-            <p>Introduction to the first blog post. Discuss topics you're passionate about, share insights, or provide tutorials.</p>
-        </div>
-        <div>
-            <h3>Blog Post 2</h3>
-            <p>Introduction to the second blog post. Share your thoughts on recent trends or personal experiences.</p>
-        </div>
-        <div>
-            <h3>Blog Post 3</h3>
-            <p>Introduction to the third blog post. Keep your audience engaged with a personal story or analysis of current events.</p>
-        </div>
-    </div>
-</section>
-
-<section id="contact">
-    <h2>Contact</h2>
-    <p>If you'd like to get in touch, feel free to use the form below or send me an email at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
-    <div class="contact-form">
-        <form action="#" method="post">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </div>
-</section>
-
-<section id="social">
-    <h2>Follow Me</h2>
-    <div class="social-links">
-        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-        <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
-    </div>
-</section>
-
-<footer>
-    <p>&copy; 2024 Your Name. All rights reserved.</p>
-</footer>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
